@@ -1,0 +1,53 @@
+@import '../../colors.scss';
+
+.pluto-button {
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 2px;
+  font-weight: 500;
+
+  &.primary {
+    background-color: $primary-color;
+  }
+
+  &.secondary {
+    background-color: $secondary-color;
+  }
+
+  &.dark {
+    background-color: $dark-color;
+  }
+
+  &.light {
+    background-color: $light-color;
+  }
+
+  &.success {
+    background-color: $success-color;
+  }
+
+  &.warning {
+    background-color: $warning-color;
+  }
+
+  &.danger {
+    background-color: $danger-color;
+  }
+
+  &.large {
+    padding: 0.6rem 3rem;
+    font-size: 18px;
+
+  }
+
+  &.medium {
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+  }
+
+  &.small {
+    padding: 0.5rem 0.8rem;
+    font-size: 14px;
+  }
+}
