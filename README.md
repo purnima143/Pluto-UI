@@ -2,6 +2,83 @@
 
 Pluto UI is a React UI component library built specifically for ecommerce websites. It provides a wide range of customizable UI elements to enhance the user experience of your online store.
 
+## Technologies
+
+The following technologies and programming languages are used in our project:
+
+   - React: A JavaScript library for building user interfaces.
+   - Storybook: A development environment and UI component explorer for building UI components in isolation.
+  -  PropTypes: A library for type checking React component props.
+   - SCSS: A CSS preprocessor that enhances the capabilities of CSS.:
+
+## Components
+Here's a comprehensive list of common components should be in the library:
+ - Navigation Components:
+   - [ ] Navigation bar
+   - [ ] Mega menu
+   - [ ] Breadcrumbs
+   - [ ] Sidebar
+
+- Product Display Components:
+   - [ ] Product card
+   - [ ] Product list/grid view
+   - [ ] Product carousel/slider
+   - [ ] Product details page
+
+ - Shopping Cart Components:
+   - [ ] Cart summary
+   - [ ] Cart items list
+   - [ ] Cart sidebar
+   - [ ] Cart checkout process
+
+ - Checkout Components:
+   - [ ] Address form
+   - [ ] Payment options
+   - [ ] Order summary
+   - [ ] Shipping options
+   - [ ] Order confirmation
+
+ - User Account Components:
+   - [ ] Sign-in/sign-up form
+   - [ ] User profile
+   - [ ] Order history
+   - [ ] Wishlist
+
+ - Search Components:
+   - [ ] Search bar
+   - [ ] Sorting dropdown
+   - [ ] Filter options
+
+ - Promotion Components:
+   - [ ] Banner
+   - [ ] Sale/Discount badges
+   - [ ] Featured products
+
+ - Review and Rating Components:
+   - [ ] Rating system
+   - [ ] Customer reviews
+
+ - Messaging Components:
+   - [ ] Notifications
+   - [ ] Toast messages
+   - [ ] Alerts
+
+ - Forms and Inputs:
+   - [x] Text fields
+   - [x] Dropdowns
+   - [x] Radio buttons
+   - [x] Checkboxes
+   - [x] Date pickers
+   - [x] Range
+
+ - Miscellaneous Components:
+   - [ ] Pagination
+   - [ ] Loading spinners
+   - [ ] Modal/pop-up windows
+   - [ ] Tooltips
+   - [ ] Progress bars
+   - [ ] Avatars
+
 ## 🚀 Getting Started
 ### Prerequisites
 
@@ -29,14 +106,6 @@ With Storybook up and running, you can interact with the individual components, 
 
 Feel free to customize and enhance this markdown file to match your project's needs.
 
-## Technologies
-
-The following technologies and programming languages are used in our project:
-
-   - React: A JavaScript library for building user interfaces.
-   - Storybook: A development environment and UI component explorer for building UI components in isolation.
-  -  PropTypes: A library for type checking React component props.
-   - SCSS: A CSS preprocessor that enhances the capabilities of CSS.
 ## Guidelines for Writing SCSS
 
 When writing SCSS code for our project, please adhere to the following guidelines:
