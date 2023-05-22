@@ -1,6 +1,7 @@
 # Pluto UI :rocket:
 
 Pluto UI is a React UI component library built specifically for ecommerce websites. It provides a wide range of customizable UI elements to enhance the user experience of your online store.
+![Desktop - 12](https://github.com/purnima143/Pluto-UI/assets/57852378/82a27ad2-af5a-4d60-b29f-0617d0f440e3)
 
 ## Technologies
 
@@ -10,6 +11,10 @@ The following technologies and programming languages are used in our project:
    - Storybook: A development environment and UI component explorer for building UI components in isolation.
   -  PropTypes: A library for type checking React component props.
    - SCSS: A CSS preprocessor that enhances the capabilities of CSS.:
+
+## Color Code 
+Must follow this color code when creating a component.
+![Group 3(1)](https://github.com/purnima143/Pluto-UI/assets/57852378/7e0be7ea-7aaf-410c-a5e4-4eddd166b6e4)
 
 ## Components
 Here's a comprehensive list of common components should be in the library:
