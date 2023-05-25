@@ -75,3 +75,44 @@ export const Disabled = {
   },
 };
 
+export const Rounded = {
+  args: {
+    variant: 'rounded',
+    children: 'Button'
+  }
+}
+
+export const RoundShadowedBlue = {
+  args: {
+    variant: 'roundshadowblue',
+    children: 'Button',
+  }
+}
+
+export const RoundShadowedYellow = {
+  args: {
+    variant: 'roundshadowyellow',
+    children: 'Button',
+  }
+}
+
+export const RoundShadowedDanger = {
+  args: {
+    variant: 'roundshadowdanger',
+    children: 'Button',
+  }
+}
+
+export const RoundShadowedDark = {
+  args: {
+    variant: 'roundshadowdark',
+    children: 'Button',
+  }
+}
+
+export const RoundShadowedLight = {
+  args: {
+    variant: 'roundshadowlight',
+    children: 'Button',
+  }
+}

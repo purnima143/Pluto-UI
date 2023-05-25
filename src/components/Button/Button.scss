@@ -50,4 +50,33 @@
     padding: 0.5rem 0.8rem;
     font-size: 14px;
   }
+  &.rounded{
+    border-radius: 25px;
+    background-color: $primary-color;
+  }
+  &.roundshadowblue{
+    border-radius: 25px;
+    background-color: $primary-color;
+    box-shadow: 3px 3px black;
+  }
+  &.roundshadowyellow{
+    border-radius: 25px;
+    background-color: $orangewarning-color;
+    box-shadow: 3px 3px black;
+  }
+  &.roundshadowdanger{
+    border-radius: 25px;
+    background-color: $danger-color;
+    box-shadow: 3px 3px black;
+  }
+  &.roundshadowdark{
+    border-radius: 25px;
+    background-color: $dark-color;
+    box-shadow: 3px 3px 2px rgb(144, 144, 144);
+  }
+  &.roundshadowlight{
+    border-radius: 25px;
+    background-color: $light-color;
+    box-shadow: 3px 3px 2px black;
+  }
 }
