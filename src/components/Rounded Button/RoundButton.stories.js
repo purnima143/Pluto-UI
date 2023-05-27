@@ -1,83 +1,89 @@
-import  Button  from './Button';
+import  Button  from './RoundButton';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 export default {
-  title: 'Example/Buttons',
+  title: 'Example/RoundButtons',
   component: Button,
   tags: ['autodocs'],
   argTypes: { size: { control: 'radio', options: ['small', 'medium', 'large'] },
   onClick: { action: 'clicked' }}
 };
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
-export const Primary = {
+
+export const Round = {
   args: {
-    variant: 'primary',
+    variant: 'rounded',
+    children: 'Button'
+  }
+}
+
+export const RoundSecondary = {
+  args: {
+    variant: 'roundblue',
+    children: 'Button',
+  }
+}
+
+export const RoundWarning = {
+  args: {
+    variant: 'roundyellow',
+    children: 'Button',
+  }
+}
+
+export const RoundDanger = {
+  args: {
+    variant: 'rounddanger',
+    children: 'Button',
+  }
+}
+
+export const RoundDark = {
+  args: {
+    variant: 'rounddark',
+    children: 'Button',
+  }
+}
+
+export const RoundLight = {
+  args: {
+    variant: 'roundlight',
+    children: 'Button',
+  }
+}
+
+export const RoundSuccess = {
+  args: {
+    variant: 'roundsuccess',
     children: 'Button',
   },
 };
 
-export const Secondary = {
+export const RoundLarge = {
   args: {
-    variant: 'secondary',
-    children: 'Button',
-  },
-};
-export const Success = {
-  args: {
-    variant: 'success',
-    children: 'Button',
-  },
-};
-
-export const Danger = {
-  args: {
-    variant: 'danger',
-    children: 'Button',
-  },
-};export const Warning = {
-  args: {
-    variant: 'warning',
-    children: 'Button',
-  },
-};
-
-export const Dark = {
-  args: {
-    variant: 'dark',
-    children: 'Button',
-  },
-};export const Light = {
-  args: {
-    variant: 'light',
-    children: 'Button',
-  },
-};
-
-export const Large = {
-  args: {
-    size: 'large',
+    size: 'roundlarge',
     children: 'Button',
 
   },
 };
 
-export const Small = {
+export const RoundSmall = {
   args: {
-    size: 'small',
+    size: 'roundsmall',
     children: 'Button',
   },
 };
 
-export const Medium = {
+export const RoundMedium = {
   args: {
-    size: 'medium',
+    size: 'roundmedium',
     children: 'Button',
   },
 };
 
-export const Disabled = {
+export const RoundDisabled = {
   args: {
-    variant: 'primary',
+    variant: 'roundprimary',
     children: 'Button',
     disabled:true
   },
