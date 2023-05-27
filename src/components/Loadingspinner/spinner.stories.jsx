@@ -6,51 +6,47 @@ export default {
     tags: ['autodocs'],
   };
   
-  export const Default = {
-    args: {
-      color:'',
-    },
-  };
+  
 
   export const primary ={
     args:{
-        color:'#5636FA'
+        color:'primary'
     }
   }
 
   export const secondary = {
     args:{
-        color:'#2B10B4'
+        color:'secondary'
     }
   }
 
   export const success={
     args:{
-        color:'#21E497'
+        color:'success'
     }
   }
 
   export const danger ={
     args:{
-        color:'#FF3869'
+        color:'danger'
     }
   }
 
   export const warning = {
     args:{
-        color:'#FFBB40'
+        color:'warning'
     }
   }
 
   export const dark ={
     args:{
-        color:'#010101'
+        color:'dark'
     }
   }
 
   export const light = {
     args:{
-        color:'#A2ABBC'
+        color:'light'
     }
   }
 
