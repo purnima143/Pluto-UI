@@ -67,6 +67,14 @@ export const Small = {
     children: 'Button',
   },
 };
+
+export const Medium = {
+  args: {
+    size: 'medium',
+    children: 'Button',
+  },
+};
+
 export const Disabled = {
   args: {
     variant: 'primary',
@@ -75,44 +83,81 @@ export const Disabled = {
   },
 };
 
-export const Rounded = {
+export const Round = {
   args: {
     variant: 'rounded',
     children: 'Button'
   }
 }
 
-export const RoundShadowedBlue = {
+export const RoundSecondary = {
   args: {
-    variant: 'roundshadowblue',
+    variant: 'roundblue',
     children: 'Button',
   }
 }
 
-export const RoundShadowedYellow = {
+export const RoundWarning = {
   args: {
-    variant: 'roundshadowyellow',
+    variant: 'roundyellow',
     children: 'Button',
   }
 }
 
-export const RoundShadowedDanger = {
+export const RoundDanger = {
   args: {
-    variant: 'roundshadowdanger',
+    variant: 'rounddanger',
     children: 'Button',
   }
 }
 
-export const RoundShadowedDark = {
+export const RoundDark = {
   args: {
-    variant: 'roundshadowdark',
+    variant: 'rounddark',
     children: 'Button',
   }
 }
 
-export const RoundShadowedLight = {
+export const RoundLight = {
   args: {
-    variant: 'roundshadowlight',
+    variant: 'roundlight',
     children: 'Button',
   }
 }
+
+export const RoundSuccess = {
+  args: {
+    variant: 'roundsuccess',
+    children: 'Button',
+  },
+};
+
+export const RoundLarge = {
+  args: {
+    size: 'roundlarge',
+    children: 'Button',
+
+  },
+};
+
+export const RoundSmall = {
+  args: {
+    size: 'roundsmall',
+    children: 'Button',
+  },
+};
+
+export const RoundMedium = {
+  args: {
+    size: 'roundmedium',
+    children: 'Button',
+  },
+};
+
+export const RoundDisabled = {
+  args: {
+    variant: 'roundprimary',
+    children: 'Button',
+    disabled:true
+  },
+};

@@ -54,29 +54,51 @@
     border-radius: 25px;
     background-color: $primary-color;
   }
-  &.roundshadowblue{
+
+  &.roundblue{
     border-radius: 25px;
-    background-color: $primary-color;
-    box-shadow: 3px 3px black;
+    background-color: $secondary-color;
   }
-  &.roundshadowyellow{
+  &.roundyellow{
     border-radius: 25px;
     background-color: $orangewarning-color;
-    box-shadow: 3px 3px black;
   }
-  &.roundshadowdanger{
+  &.rounddanger{
     border-radius: 25px;
     background-color: $danger-color;
-    box-shadow: 3px 3px black;
   }
-  &.roundshadowdark{
+  &.rounddark{
     border-radius: 25px;
     background-color: $dark-color;
-    box-shadow: 3px 3px 2px rgb(144, 144, 144);
   }
-  &.roundshadowlight{
+  &.roundlight{
     border-radius: 25px;
     background-color: $light-color;
-    box-shadow: 3px 3px 2px black;
+  }
+  &.roundsuccess {
+    border-radius: 25px;
+    background-color: $success-color;
+  }
+  &.roundprimary {
+    border-radius: 25px;
+    background-color: $primary-color;
+  }
+  &.roundlarge {
+    border-radius: 25px;
+    padding: 0.6rem 3rem;
+    font-size: 18px;
+
+  }
+
+  &.roundmedium {
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+  }
+
+  &.roundsmall {
+    border-radius: 25px;
+    padding: 0.5rem 0.8rem;
+    font-size: 14px;
   }
 }
