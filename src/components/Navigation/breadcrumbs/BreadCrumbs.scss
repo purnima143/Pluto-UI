@@ -1,0 +1,26 @@
+// @import '../../colors.scss';
+
+//Drak mode colors
+$dark-primary-bg: #091e42;
+$dark-active-link: #1d63fa;
+$dark-link-color: #edeff1;
+
+// light mode colors
+$light-primary-bg: #ffffff;
+$light-active-link: #313131;
+$light-link-color: #9fa8b5;
+
+.breadcrumb {
+
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+
+
+    .breadcrumb-ul {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+    }
+}
