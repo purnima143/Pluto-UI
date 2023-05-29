@@ -147,7 +147,7 @@ We welcome contributions from everyone. Here are some guidelines to get started:
 1. Fork the repository and create your branch: `git checkout -b your-branch-name`. For example, if you are working on the Navbar component, you can create a branch named `navbar`.
 2. Make your changes and commit them: `git commit -m 'Add some feature'`.
 3. Push to your forked repository: `git push origin your-branch-name`.
-4. Open a pull request to the main repository's branch(master) and mention which component you have worked on. 
+4. Open a pull request to the **dev branch** and mention which component you have worked on. 
 
 For example, if you have made changes to the Navbar component, you can mention it in the pull request title or description: "Feature: Updated Navbar component".
 
