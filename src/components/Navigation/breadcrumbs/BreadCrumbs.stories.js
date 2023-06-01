@@ -6,7 +6,6 @@ export default {
   component: BreadCrumbs,
   tags: ["autodocs"],
 };
-
 const Template = (args) => <BreadCrumbs {...args} />;
 
 export const Default = Template.bind({});
