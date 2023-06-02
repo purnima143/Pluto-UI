@@ -17,4 +17,6 @@ Default.args = {
   link4: "Payment",
   link5: "Confirm",
   isDarkMode: false,
+  isArrow: false,
+  isStyle1: false,
 };
