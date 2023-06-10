@@ -4,14 +4,44 @@
 Pluto UI is a comprehensive React UI component library designed specifically for ecommerce websites. Its purpose is to enhance the user experience of online stores by providing a wide range of reusable and customizable UI elements.
 ![Desktop - 12](https://github.com/purnima143/Pluto-UI/assets/57852378/82a27ad2-af5a-4d60-b29f-0617d0f440e3)
 
+<div align="center">
+<!-- [![GitHub repo size](https://img.shields.io/github/repo-size/purnima143/Pluto-UI?label=Repo%20Size&logo=github&logoColor=white&style=plastic)]() -->
+  
+<img src="https://forthebadge.com/images/badges/open-source.svg" />
+<img src="https://forthebadge.com/images/badges/built-with-love.svg" />
+<img src="https://forthebadge.com/images/badges/powered-by-responsibility.svg" /><br>   
+<img src="https://forthebadge.com/images/badges/built-by-developers.svg" />
+<img src="https://forthebadge.com/images/badges/uses-brains.svg" />   
+</div> 
+
+<br>
+
+<div align="center">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/purnima143/Pluto-UI?label=Repo%20Size&logo=github&logoColor=white&style=plastic">
+   <img alt="GitHub repo file count" src="https://img.shields.io/github/directory-file-count/purnima143/Pluto-UI?style=plastic">
+   
+   [![GitHub issues](https://img.shields.io/github/issues/purnima143/Pluto-UI?style=plastic)](https://github.com/purnima143/Pluto-UI/issues)
+   [![GitHub pull requests](https://img.shields.io/github/issues-pr/purnima143/Pluto-UI?style=plastic)](https://github.com/purnima143/Pluto-UI/pulls)
+   [![GitHub](https://img.shields.io/github/license/purnima143/Pluto-UI?style=plastic)](https://github.com/purnima143/Pluto-UI/blob/master/LICENSE)
+   [![GitHub forks](https://img.shields.io/github/forks/purnima143/Pluto-UI?label=Forks&style=plastic)](https://github.com/purnima143/Pluto-UI/forks)
+   [![GitHub Repo stars](https://img.shields.io/github/stars/purnima143/Pluto-UI?style=social)](https://github.com/purnima143/Pluto-UI/stargazers)
+
+</div>   
+
 ## Technologies
+<div align="center">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+   <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" />
+  
+</div><br>
+   
+Also included these tech stacks:
 
-The following technologies and programming languages are used in our project:
-
-   - React: A JavaScript library for building user interfaces.
    - Storybook: A development environment and UI component explorer for building UI components in isolation.
   -  PropTypes: A library for type checking React component props.
-   - SCSS: A CSS preprocessor that enhances the capabilities of CSS.:
+
 
 ## Color Code 
 Must follow this color code when creating a component.To ensure consistency and visual coherence, Pluto UI follows a specific color code. When creating new components, it is important to adhere to this color code for a unified look and feel throughout the UI library.
