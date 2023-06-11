@@ -1,2 +1,4 @@
 import Button from "./components/Button/Button.jsx";
-export {Button}
+import BreadCrumbs from "./components/Navigation/breadcrumbs/BreadCrumbs.js";
+export { Button };
+export { BreadCrumbs };
