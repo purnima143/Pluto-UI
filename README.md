@@ -75,7 +75,7 @@ Here's a comprehensive list of common components should be in the library:
    - [ ] Order confirmation
 
  - User Account Components:
-   - [ ] Sign-in/sign-up form
+   - [x] Sign-in/sign-up form
    - [ ] User profile
    - [ ] Order history
    - [ ] Wishlist
