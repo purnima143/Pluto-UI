@@ -1,0 +1,48 @@
+nav{
+    position: relative;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0px 10px;
+    margin-left: 100px;
+}
+nav div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    gap: 20px;
+}
+nav div p{
+    font-size: 1.2rem;
+    padding: 0px 10px;
+}
+nav p span{
+    color: yellow;
+    font-weight: bold;
+}
+nav div p span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+nav div i{
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: black;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
