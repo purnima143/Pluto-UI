@@ -26,4 +26,4 @@ Button.defaultProps = {
   variant: 'primary',
   size: 'medium',
 };
-export default Button
+export default Button;

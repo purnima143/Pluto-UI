@@ -75,3 +75,9 @@ export const Disabled = {
   },
 };
 
+export const Outlined = {
+  args: {
+    variant: 'outlined',
+    children: 'Button',
+  },
+};
