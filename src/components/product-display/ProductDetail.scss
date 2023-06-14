@@ -1,0 +1,243 @@
+//Drak mode colors
+$dark-primary-bg: #32476B;
+$dark-para-color: #DFE2E6;
+$dark-heading-color: #F5F6F7;
+$dark-instock-color: #9DE2CB;
+
+
+.productdetail {
+    width: 1479px;
+    height: 699px;
+    border: 1px solid black;
+    font-family: Montserrat;
+
+    &.dark-mode {
+        background-color: $dark-primary-bg;
+
+        .secondary-heading,
+        .primary-heading,
+        .review-text {
+            color: $dark-heading-color;
+        }
+
+        .instock-text {
+            color: $dark-instock-color;
+        }
+
+        .price-text {
+            color: #EAEAEA;
+        }
+
+        .description-text,
+        .detail-text,
+        .product-detail {
+            color: $dark-para-color;
+        }
+
+        .product-detail1,
+        .product-detail3,
+        .product-detail5 {
+            background-color: #5D6B82;
+        }
+
+        .product-detail4,
+        .product-detail2 {
+            background-color: #7A8699;
+        }
+
+        .buy-now-button {
+            color: #fff;
+
+
+        }
+
+        .addto-cart-button {
+            color: #A3C0FF;
+            border: 1px solid #A3C0FF;
+        }
+
+        .addto-cart-button:hover {
+            background-color: #7286b3;
+            transition: 0.3s all;
+        }
+
+        .quantity-button {
+            background-color: $dark-primary-bg;
+            color: $dark-heading-color;
+        }
+
+        .quantity-text {
+            color: $dark-heading-color;
+            border: 0.843988px solid #E2E2E2;
+        }
+    }
+
+    .primary-heading {
+        margin-bottom: 0;
+        width: 593px;
+        height: 128px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 64px;
+        /* or 123% */
+
+        display: flex;
+        align-items: center;
+    }
+
+    .review {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        margin-top: 0;
+    }
+
+    .stars {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        padding: 0px;
+        gap: 0.2px;
+        align-items: center;
+    }
+
+    .star {
+        color: goldenrod;
+        width: 91.31px;
+        height: 15.63px;
+
+    }
+
+    .review-text {
+        margin-left: 0;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15.85px;
+        padding-top: 7px;
+    }
+
+    .stock {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 12px;
+    }
+
+    .instock-img {
+        width: 19.5px;
+        height: 20.99px;
+    }
+
+    .price-box {
+        display: flex;
+        gap: 13px;
+    }
+
+    .secondary-heading {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 29px;
+        margin-top: 2px;
+        font-style: normal;
+    }
+
+    .price-text {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15.85px;
+        align-self: self-start;
+    }
+
+    .product-details-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 21px;
+        width: 464px;
+        height: 63px;
+    }
+
+    .product-detail1,
+    .product-detail2,
+    .product-detail3,
+    .product-detail4,
+    .product-detail5 {
+        display: flex;
+        flex-direction: row;
+        width: 610px;
+        height: 31px;
+        gap: 2px;
+        align-items: center;
+    }
+
+    .product-detail {
+        padding-left: 8px;
+    }
+
+    .product-detail,
+    .detail-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        width: 321px;
+        height: 16px;
+    }
+
+
+    .button-box {
+        display: flex;
+        gap: 30px;
+        margin-top: 25px;
+    }
+
+    .buy-now-button,
+    .addto-cart-button {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        text-decoration: none;
+        width: 103px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .buy-now-button {
+        border: 1px solid #1E65FF;
+        background-color: #1E65FF;
+    }
+
+    .buy-now-button:hover {
+        transition: 0.3s all;
+        background-color: #3574ff;
+    }
+
+    .quantity-box {
+        display: flex;
+        gap: 20px;
+    }
+
+    .quantity-text {
+        font-family: 'Brandon Grotesque';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 15px;
+        padding: 14px;
+        border-radius: 12px;
+    }
+
+    .quantity-button {
+        border: none;
+        font-size: 30px;
+    }
+
+}
