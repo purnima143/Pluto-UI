@@ -35,6 +35,13 @@
     background-color: $danger-color;
   }
 
+  &.outlined{
+    color: #447FFF;
+    
+    border: 1px solid #447FFF;
+    background-color: transparent;
+  }
+
   &.large {
     padding: 0.6rem 3rem;
     font-size: 18px;
