@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  .ProductGrid{
+    width:25%;
+    height: 40%;
+    
+    &.darkMode {
+      background-color: #393b5c !important;
+      color: #fff;
+  
+      p{
+        color: #fff;
+      }
+    }
+  
+  }
+  
+  .ProductGrid--imgCont{
+    margin: 0;
+    width: 100%;
+    height: 70%;
+  }
+  
+  .ProductGrid--imgCont>.ProductGrid--image{
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .ProductGrid--infoCont{
+    padding: 6%;
+  
+  }
+  
+  .ProductGrid--TitleAndStar,
+    .ProductGrid--PriceAndButton {
+      margin-top: 4px;
+      margin-bottom: 4px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .ProductGrid--title {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    .ProductGrid--price {
+      font-weight: bold;
+    }
+    
+    .ProductGrid--description {
+      font-size: 12px;
+      font-weight: lighter;
+    }
+  
+    @media screen and (max-width:420px) {
+      .ProductGrid{
+        width: 100%;
+      }
+    }
+  

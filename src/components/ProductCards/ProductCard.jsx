@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./ProductCard.scss";
 import Button from "../Button/Button";
-import Rating from "./Rating";
+import Rating from "../RatingComponent/Rating";
 
 const ProductCard = ({
   title,
