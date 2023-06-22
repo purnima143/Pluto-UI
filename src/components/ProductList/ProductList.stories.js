@@ -21,7 +21,7 @@ export const defaultProductList = (args) => {
       productTitle="Pavillon T-shirt"
       productDescOneLiner="Capturing Life's Precious Moments."
       price={199.99}
-      productimage="https://images.pexels.com/photos/821652/pexels-photo-821652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      productImage="https://images.pexels.com/photos/821652/pexels-photo-821652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       {...args}
     />
   );
