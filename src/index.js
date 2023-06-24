@@ -1,2 +1,3 @@
-import Button from "./components/Button/Button.jsx";
+import Button from "./components/Button/Square Button/Button.jsx";
+
 export {Button}

@@ -2,7 +2,7 @@ import  Button  from './Button';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 export default {
-  title: 'Example/Buttons',
+  title: 'Example/Buttons/Square \ Buttons',
   component: Button,
   tags: ['autodocs'],
   argTypes: { size: { control: 'radio', options: ['small', 'medium', 'large'] },
@@ -67,6 +67,14 @@ export const Small = {
     children: 'Button',
   },
 };
+
+export const Medium = {
+  args: {
+    size: 'medium',
+    children: 'Button',
+  },
+};
+
 export const Disabled = {
   args: {
     variant: 'primary',
@@ -74,4 +82,3 @@ export const Disabled = {
     disabled:true
   },
 };
-

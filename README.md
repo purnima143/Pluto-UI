@@ -1,6 +1,7 @@
 # Pluto UI :rocket:
 
-Pluto UI is a React UI component library built specifically for ecommerce websites. It provides a wide range of customizable UI elements to enhance the user experience of your online store.
+
+Pluto UI is a comprehensive React UI component library designed specifically for ecommerce websites. Its purpose is to enhance the user experience of online stores by providing a wide range of reusable and customizable UI elements.
 ![Desktop - 12](https://github.com/purnima143/Pluto-UI/assets/57852378/82a27ad2-af5a-4d60-b29f-0617d0f440e3)
 
 ## Technologies
@@ -13,7 +14,7 @@ The following technologies and programming languages are used in our project:
    - SCSS: A CSS preprocessor that enhances the capabilities of CSS.:
 
 ## Color Code 
-Must follow this color code when creating a component.
+Must follow this color code when creating a component.To ensure consistency and visual coherence, Pluto UI follows a specific color code. When creating new components, it is important to adhere to this color code for a unified look and feel throughout the UI library.
 ![Group 3(1)](https://github.com/purnima143/Pluto-UI/assets/57852378/7e0be7ea-7aaf-410c-a5e4-4eddd166b6e4)
 
 ## Components
@@ -107,9 +108,10 @@ npm run storybook
 ```
 Open your browser and visit http://localhost:6006 to view the Storybook interface.
 ### Usage
-With Storybook up and running, you can interact with the individual components, explore their variations, and test their behavior in different scenarios directly in your browser.
+With Storybook up and running, you can interact with the individual components, explore their variations, and test their behavior in different scenarios directly in your browser. This allows you to see how the components look and function in isolation and helps you integrate them seamlessly into your own ecommerce website.
 
-Feel free to customize and enhance this markdown file to match your project's needs.
+Feel free to customize and enhance this markdown file to match your project's specific needs and requirements.
+
 
 ## Guidelines for Writing SCSS
 
@@ -145,7 +147,7 @@ We welcome contributions from everyone. Here are some guidelines to get started:
 1. Fork the repository and create your branch: `git checkout -b your-branch-name`. For example, if you are working on the Navbar component, you can create a branch named `navbar`.
 2. Make your changes and commit them: `git commit -m 'Add some feature'`.
 3. Push to your forked repository: `git push origin your-branch-name`.
-4. Open a pull request to the main repository's branch(master) and mention which component you have worked on. 
+4. Open a pull request to the **dev branch** and mention which component you have worked on. 
 
 For example, if you have made changes to the Navbar component, you can mention it in the pull request title or description: "Feature: Updated Navbar component".
 
@@ -154,3 +156,5 @@ For example, if you have made changes to the Navbar component, you can mention i
 - [React Documentation](https://reactjs.org/docs): React is a popular JavaScript library for building user interfaces. The React documentation provides comprehensive information and guides on React concepts, components, and best practices.
 - [Storybook Documentation](https://storybook.js.org/docs): Storybook is a powerful tool for developing UI components in isolation. Refer to the documentation to learn how to set up and use Storybook for Pluto UI development.
 - [SCSS Guide](https://sass-lang.com/guide): SCSS (Sass) is a popular CSS preprocessor that offers additional features and flexibility. The SCSS Guide provides detailed information on how to write SCSS code effectively.
+
+Please utilize these resources to enhance your understanding and contribute effectively to the project.

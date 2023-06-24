@@ -1,0 +1,61 @@
+@import '../../../colors.scss';
+
+.pluto-button {
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 2px;
+  font-weight: 500;
+
+  &.rounded{
+    border-radius: 25px;
+    background-color: $primary-color;
+  }
+
+  &.roundblue{
+    border-radius: 25px;
+    background-color: $secondary-color;
+  }
+  &.roundyellow{
+    border-radius: 25px;
+    background-color: $orangewarning-color;
+  }
+  &.rounddanger{
+    border-radius: 25px;
+    background-color: $danger-color;
+  }
+  &.rounddark{
+    border-radius: 25px;
+    background-color: $dark-color;
+  }
+  &.roundlight{
+    border-radius: 25px;
+    background-color: $light-color;
+  }
+  &.roundsuccess {
+    border-radius: 25px;
+    background-color: $success-color;
+  }
+  &.roundprimary {
+    border-radius: 25px;
+    background-color: $primary-color;
+  }
+  &.roundlarge {
+    border-radius: 25px;
+    padding: 0.6rem 3rem;
+    font-size: 18px;
+
+  }
+
+  &.roundmedium {
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+  }
+
+  &.roundsmall {
+    border-radius: 25px;
+    padding: 0.5rem 0.8rem;
+    font-size: 14px;
+  }
+}
