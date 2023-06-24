@@ -82,3 +82,10 @@ export const Disabled = {
     disabled:true
   },
 };
+
+export const Outlined = {
+  args: {
+    variant: 'outlined',
+    children: 'Button',
+  },
+};
