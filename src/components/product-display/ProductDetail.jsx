@@ -10,10 +10,11 @@ import phone1 from "./images/phone-img1.png";
 import phone2 from "./images/phone-img2.png";
 import phone3 from "./images/phone-img3.png";
 import phone4 from "./images/phone-img4.png";
+import Button from "../Button/Button";
 
 const ProductDetail = ({
   isDarkMode,
-  isStyle1,
+  isStyle1, // There are 2 type of style for the component
   heading1,
   heading2,
   reviews,
@@ -64,6 +65,29 @@ const ProductDetail = ({
       setCount((prevCount) => prevCount - 1);
     }
   };
+  const phoneImages = [
+    // { id: 1, image: phone1 },
+    { id: 2, image: phone2 },
+    { id: 3, image: phone3 },
+    { id: 4, image: phone4 },
+  ];
+  const [image, setImage] = useState(phoneImages);
+  const shoeImages = [
+    // { id: 1, image: shoe1 },
+    { id: 2, image: shoe2 },
+    { id: 3, image: shoe3 },
+    { id: 4, image: shoe4 },
+  ];
+  const [img, setImg] = useState(shoeImages);
+
+  const details = [
+    { id: 1, detail: detail1, text: text1 },
+    { id: 2, detail: detail2, text: text2 },
+    { id: 3, detail: detail3, text: text3 },
+    { id: 4, detail: detail4, text: text4 },
+    { id: 5, detail: detail5, text: text5 },
+  ];
+  const [productdetail, setProductdetail] = useState(details);
   return (
     <div className={productDetail}>
       <div className="product-detail-box">
@@ -78,31 +102,33 @@ const ProductDetail = ({
           </div>
           {isStyle1 ? (
             <div className="image-grid">
-              <div className="img-box">
-                <img src={shoe2} alt={`Image 1`} className="shoe-img" />
-              </div>
-              <div className="img-box">
-                <img src={shoe3} alt={`Image 2`} className="shoe-img" />
-              </div>
-              <div className="img-box">
-                <img src={shoe4} alt={`Image 3`} className="shoe-img" />
-              </div>
+              {img.map((elem) => {
+                const { id, image } = elem;
+                return (
+                  <div className="img-box">
+                    <img
+                      src={image}
+                      alt={`Image ${id}`}
+                      className="shoe-img phone-img"
+                    />
+                  </div>
+                );
+              })}
             </div>
           ) : (
             <div className="image-grid">
-              <div className="img-box">
-                <img
-                  src={phone2}
-                  alt={`Image 1`}
-                  className="shoe-img phone-img"
-                />
-              </div>
-              <div className="img-box">
-                <img src={phone3} alt={`Image 2`} className="shoe-img " />
-              </div>
-              <div className="img-box">
-                <img src={phone4} alt={`Image 3`} className="shoe-img " />
-              </div>
+              {image.map((elem) => {
+                const { id, image } = elem;
+                return (
+                  <div className="img-box">
+                    <img
+                      src={image}
+                      alt={`Image ${id}`}
+                      className="shoe-img phone-img"
+                    />
+                  </div>
+                );
+              })}
             </div>
           )}
         </div>
@@ -140,31 +166,23 @@ const ProductDetail = ({
                   <p className="description-text"> {descriptionText1} </p>
                   {/* STYLE 1 PRODUCT DETAIL BOX  */}
                   <div className="product-details-box">
-                    <div className="product-detail1">
-                      <p className="product-detail"> {detail1} </p>
-                      <p className="detail-text"> {text1} </p>
-                    </div>
-                    <div className="product-detail2">
-                      <p className="product-detail"> {detail2} </p>
-                      <p className="detail-text"> {text2} </p>
-                    </div>
-                    <div className="product-detail3">
-                      <p className="product-detail"> {detail3} </p>
-                      <p className="detail-text"> {text3} </p>
-                    </div>
-                    <div className="product-detail4">
-                      <p className="product-detail"> {detail4} </p>
-                      <p className="detail-text"> {text4} </p>
-                    </div>
-                    <div className="product-detail5">
-                      <p className="product-detail"> {detail5} </p>
-                      <p className="detail-text"> {text5} </p>
-                    </div>
+                    {productdetail.map((elem) => {
+                      const { id, detail, text } = elem;
+
+                      return (
+                        <div className="product-details">
+                          <p className="product-detail"> {detail} </p>
+                          <p className="detail-text"> {text} </p>
+                        </div>
+                      );
+                    })}
                   </div>
                   {/* STYLE 1 QUANTITY AND SIZE BOX  */}
                   <div className="quantity-and-size-box">
                     <div className="quantity-box">
-                    <h3 className="tertiray-heading style1-quantity-heading">{shoeDetail1}</h3>
+                      <h3 className="tertiray-heading style1-quantity-heading">
+                        {shoeDetail1}
+                      </h3>
                       <div className="quantity-button-box">
                         <button
                           onClick={handleDecrement}
@@ -182,7 +200,6 @@ const ProductDetail = ({
                           +{" "}
                         </button>
                       </div>
-                      
                     </div>
                     <div className="size-box">
                       <div className="sizebox">
@@ -228,12 +245,8 @@ const ProductDetail = ({
                   </div>
                   {/* STYLE 1 BUTTON BOX  */}
                   <div className="button-box">
-                    <a href="#" className="buy-now-button">
-                      Buy Now
-                    </a>
-                    <a href="#" className="addto-cart-button">
-                      Add to Cart
-                    </a>
+                    <Button>Buy Now</Button>
+                    <Button> Add to Cart</Button>
                   </div>
                 </div>
               ) : (
